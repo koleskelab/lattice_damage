@@ -29,7 +29,7 @@
 
 function [abl2_intensity,mt_intensity,...
     avg_mt_length, abl2_loci_beg, abl2_loci_middle, ...
-    abl2_loci_end] = abl2_reporter_intensity_quantification(filaments,mt_tot,abl2_tot,mt_threshold,increment)
+    abl2_loci_end] = abl2_intensity_quantification(filaments,mt_tot,abl2_tot,mt_threshold,increment)
 
 abl2_intensity = [];
 mt_intensity = [];
